@@ -1,92 +1,117 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Abdullah Cloth House</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {font-family: Arial; text-align: center; background: #f5f5f5; margin:0;}
-    .header {background: #2c3e50; color: white; padding: 40px;}
-    .btn {background: #25D366; color: white; padding: 15px 30px; 
-          text-decoration: none; border-radius: 8px; display: inline-block; margin-top: 20px; font-size: 18px;}
-    .products {padding: 30px;}
-  </style>
-</head>
-<body>
-  <header>
-    <img src="logo.png" alt="Abdullah Cloth House Logo" style="height: 50px;">
-    <h1>ABDULLAH CLOTH HOUSE</h1>
-</header>
-  <div class="header">
-    <h1>Abdullah Cloth House</h1>
-    <p>Latest Fashion for Men & Women | Multan</p>
-  </div>
-  <div class="products">
-    <h2>Welcome to Our Store</h2>
-    <p>Men's Wear, Women's Wear, Kids Collection</p>
-    <p>Cash on Delivery Available</p>
-    <a class="btn" href="https://wa.me/923206712235">Order on WhatsApp</a>
-  </div>
-
-  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdullah Cloth House</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #000; }
-        header { text-align: center; padding: 15px; border-bottom: 1px solid #eee; }
-        header h1 { margin: 0; font-size: 24px; letter-spacing: 2px; }
-        nav { display: flex; justify-content: center; gap: 20px; padding: 10px; border-bottom: 1px solid #eee; }
-        nav a { text-decoration: none; color: #000; font-size: 14px; }
-        .banner { text-align: center; padding: 50px 20px; background: #f5f5f5; }
-        .banner h2 { font-size: 32px; margin: 0; }
-        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 40px; max-width: 1200px; margin: auto; }
+        body { font-family: Arial, sans-serif; margin: 0; color: #333; }
+        nav { display: flex; justify-content: center; gap: 25px; padding: 15px; font-size: 14px; border-bottom: 1px solid #eee; }
+        nav a { text-decoration: none; color: #333; text-transform: uppercase; }
+        .banner { text-align: center; padding: 80px 20px; background: #f8f8f8; }
+        .banner h1 { font-size: 32px; font-weight: 300; margin: 10px 0; }
+        .banner p { font-size: 16px; color: #666; }
+        .categories { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 40px; text-align: center; }
+        .cat img { width: 100%; height: 250px; object-fit: cover; }
+        .cat h3 { margin: 10px 0; font-weight: 400; }
+        .products { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 40px; }
         .product { text-align: center; }
-        .product img { width: 100%; height: 350px; object-fit: cover; }
-        .product h3 { font-size: 16px; margin: 10px 0 5px; }
-        .product p { font-size: 18px; font-weight: bold; }
-        .btn { display: inline-block; padding: 10px 20px; background: #000; color: #fff; text-decoration: none; margin-top: 10px; }
-        footer { text-align: center; padding: 30px; border-top: 1px solid #eee; font-size: 14px; }
+        .product img { width: 100%; height: 400px; object-fit: cover; }
+        .product h4 { font-weight: 400; margin: 10px 0 5px 0; }
+        .product p { color: #666; }
+        .promo { display: flex; padding: 60px 40px; gap: 40px; align-items: center; }
+        .promo img { width: 50%; }
+        .articles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 40px; text-align: center; }
+        .info { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 40px; background: #f8f8f8; text-align: center; }
+        .newsletter { text-align: center; padding: 50px; border-top: 1px solid #eee; }
+        .newsletter input { padding: 10px; width: 300px; }
+        .newsletter button { padding: 10px 20px; background: #000; color: #fff; border: none; }
+        footer { padding: 40px; font-size: 12px; color: #666; border-top: 1px solid #eee; }
+        footer a { color: #666; text-decoration: none; margin-right: 15px; }
+        .btn { padding: 10px 25px; background: #000; color: #fff; text-decoration: none; display: inline-block; margin-top: 15px; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>ABDULLAH CLOTH HOUSE</h1>
-</header>
-
 <nav>
-    <a href="#">Home</a>
-    <a href="#">Winter 26</a>
-    <a href="#">Tops</a>
-    <a href="#">Bottoms</a>
-    <a href="#">Sale</a>
-    <a href="#">Contact Us</a>
+    <a href="#">bedroom</a>
+    <a href="#">home</a>
+    <a href="#">clothing</a>
+    <a href="#">candles & fragrance</a>
+    <a href="#">beauty & spa</a>
+    <a href="#">baby & children</a>
+    <a href="#">gifts</a>
+    <a href="#">the thread</a>
 </nav>
 
 <div class="banner">
-    <h2>Style that moves with you.</h2>
-    <a href="#" class="btn">Shop Now</a>
+    <h1>NEW IN CLOTHING</h1>
+    <p>New arrivals to wear now</p>
+    <p>All you need to live life beautifully. Take a look around</p>
+</div>
+
+<div class="categories">
+    <div class="cat"><img src="bedroom.jpg"><h3>Bedroom</h3></div>
+    <div class="cat"><img src="home.jpg"><h3>Home</h3></div>
+    <div class="cat"><img src="candles.jpg"><h3>Candles & Fragrance</h3></div>
+    <div class="cat"><img src="baby.jpg"><h3>Baby & Children</h3></div>
+</div>
+
+<div class="banner">
+    <h1>New clothing to love</h1>
 </div>
 
 <div class="products">
-    <!-- یہاں پروڈکٹس آئیں گے -->
-    <div class="product">
-        <img src="1pic.png" alt="Product">
-        <h3>Lawn 3 Piece Suit</h3>
-        <p>Rs. 3500</p>
-        <a href="https://wa.me/923206712235" class="btn">Order on WhatsApp</a>
-    </div>
+    <div class="product"><img src="shirt1.jpg"><h4>Relaxed Ramie Overshirt</h4><p>£115.00</p></div>
+    <div class="product"><img src="shorts1.jpg"><h4>Knitted Lounge Shorts with Cashmere</h4><p>£75.00</p></div>
+    <div class="product"><img src="tee1.jpg"><h4>Boxy Draped Tee</h4><p>£65.00</p></div>
+    <div class="product"><img src="trouser1.jpg"><h4>Cotton Voile Trousers</h4><p>£95.00</p></div>
+    <div class="product"><img src="trouser2.jpg"><h4>Jersey Side Stripe Trousers</h4><p>£95.00</p></div>
+    <div class="product"><img src="dress1.jpg"><h4>Scoop Neck Wrap Dress</h4><p>£145.00</p></div>
+    <div class="product"><img src="tee2.jpg"><h4>Linen Rich Deep V Extended Shoulder Tee</h4><p>£80.00</p></div>
+    <div class="product"><img src="blouse1.jpg"><h4>Cutwork Detail Boho Blouse</h4><p>£115.00</p></div>
+</div>
+
+<div class="promo">
+    <img src="robes.jpg">
+    <div><h2>That spa feeling</h2><p>The cosiest addition to your evening rituals</p><a href="#" class="btn">Robes</a></div>
+</div>
+
+<div class="promo">
+    <div><h2>Hotel at home</h2><p>Bed linen you can’t resist curling up in</p><a href="#" class="btn">Bed Linen</a></div>
+    <img src="bedlinen.jpg">
+</div>
+
+<div class="banner">
+    <h1>The Thread</h1>
+    <p>Stories to inspire. Ideas to get the look. Expert advice for living beautifully.</p>
+</div>
+
+<div class="articles">
+    <div><img src="style1.jpg"><h4>STYLE</h4><p>What to wear now: a new capsule for summer</p><a href="#">View the lookbook</a></div>
+    <div><img src="life1.jpg"><h4>LIFE</h4><p>Chrissie's July edit: everything our founder is loving</p><a href="#">READ THE ARTICLE</a></div>
+    <div><img src="home1.jpg"><h4>HOME</h4><p>Deliciously simple sugar snap peas for summer</p><a href="#">Read the Article</a></div>
+</div>
+
+<div class="info">
+    <div><h4>Free Standard Delivery</h4><p>On orders over £60</p></div>
+    <div><h4>Nominated & Next Day Delivery</h4><p>Order before 7pm</p></div>
+    <div><h4>Gift Boxes & Bags</h4><p>For a special finishing touch</p></div>
+    <div><h4>Gift Cards</h4><p>Give the gift of choice</p></div>
+</div>
+
+<div class="newsletter">
+    <h3>Join The CLUB and get 10% off today</h3>
+    <input type="email" placeholder="Email Address">
+    <button>Join Now</button>
 </div>
 
 <footer>
-    <p>Free Delivery | Customer Support 7 days a week | Secure Payment</p>
-    <p>Facebook | Instagram | WhatsApp | TikTok</p>
+    <p>For over 30 years, we’ve believed in making the most of life’s simple pleasures.</p>
+    <p>
+        <a href="#">Delivery</a><a href="#">Contact Us</a><a href="#">Returns</a><a href="#">About Us</a><a href="#">Our Story</a>
+    </p>
     <p>© 2026 Abdullah Cloth House</p>
 </footer>
 
-</body>
-</html>
 </body>
 </html>
